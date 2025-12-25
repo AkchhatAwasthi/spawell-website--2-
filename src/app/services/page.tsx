@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 
 const therapies = [
     {
-        id: 'hot-stone',
+        id: 'hot-stone-therapy',
         name: 'Hot Stone Therapy',
         shortDesc: 'Deep muscle relaxation with heated volcanic stones',
         fullDesc: 'Experience the ancient healing power of smooth, heated volcanic stones. This therapeutic massage melts away tension, improves circulation, and promotes deep relaxation. The warmth penetrates deep into muscles, releasing chronic stress and restoring balance to your body and mind.',
@@ -34,7 +34,7 @@ const therapies = [
         image: '/assets/images/wine-therapy.jpg'
     },
     {
-        id: 'four-hands',
+        id: 'four-hands-therapy',
         name: 'Four Hands Massage Therapy',
         shortDesc: 'Synchronized harmony by two expert therapists',
         fullDesc: 'Experience the extraordinary sensation of two therapists working in perfect harmony. This choreographed massage creates a deeply immersive experience, doubling the relaxation benefits. The synchronized movements create a meditative state that transcends ordinary massage.',
@@ -52,7 +52,7 @@ const therapies = [
         image: '/assets/images/sports-therapy.jpg'
     },
     {
-        id: 'crystal-cool',
+        id: 'crystal-cool-therapy',
         name: 'Crystal Cool Therapy',
         shortDesc: 'Healing energy with cooling crystal elements',
         fullDesc: 'Harness the natural healing properties of crystals combined with cooling therapy techniques. This unique treatment balances your energy centers, reduces inflammation, and promotes holistic wellness. The cooling sensation soothes both body and mind.',
@@ -160,12 +160,12 @@ export default function ServicesPage() {
                             <div key={idx} className="sp-card">
                                 <h3>{therapy.name}</h3>
                                 <p>{therapy.shortDesc}</p>
-                                <button
-                                    onClick={() => scrollToTherapy(therapy.id)}
+                                <Link
+                                    href={`/services/${therapy.id}`}
                                     className="sp-card-btn"
                                 >
                                     Explore Therapy →
-                                </button>
+                                </Link>
                             </div>
                         ))}
                     </div>
