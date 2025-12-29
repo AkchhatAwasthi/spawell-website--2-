@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import AboutBrief from '@/components/AboutBrief';
+import MissionVision from '@/components/MissionVision';
 import Services from '@/components/Services';
 import WhyUs from '@/components/WhyUs';
 import Experience from '@/components/Experience';
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AboutBrief />
+      <MissionVision />
       {/* <Services /> */}
       <WhyUs />
       <Experience />

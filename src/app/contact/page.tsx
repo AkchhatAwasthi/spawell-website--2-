@@ -70,8 +70,8 @@ Looking forward to your confirmation!`;
             {/* Hero Section */}
             <section className="contact-hero">
                 <div className="contact-hero-content">
-                    <h1>Get In Touch</h1>
-                    <p>We're here to answer your questions and help you begin your wellness journey</p>
+                    <h1>Contact Spa Rituals</h1>
+                    <p>We are here to help you. Book your spa appointment or ask us any questions.</p>
                 </div>
             </section>
 
@@ -133,8 +133,8 @@ Looking forward to your confirmation!`;
             <section className="contact-form-section fade-in-section">
                 <div className="contact-container">
                     <div className="contact-header">
-                        <h2>Book Your Appointment</h2>
-                        <p>Choose your preferred therapy and let us create a personalized wellness experience for you</p>
+                        <h2>Book Your Spa Appointment</h2>
+                        <p>Fill the form below and we will contact you soon. Choose your service and preferred date.</p>
                     </div>
 
                     <form className="contact-form-premium" onSubmit={handleSubmit}>

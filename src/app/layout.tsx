@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Playfair_Display, Poppins, Montserrat, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import "./new-components.css";
+import "./stat-highlight.css";
+import "./mission-vision.css";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: ["400", "600", "700"], variable: '--font-playfair' });
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600"], variable: '--font-poppins' });
@@ -9,8 +11,8 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-montserrat
 const cormorant = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "600"], variable: '--font-cormorant' });
 
 export const metadata: Metadata = {
-  title: "Spa Rituals - Where Wellness Meets Tranquility",
-  description: "Discover a sanctuary of calm where ancient healing traditions blend with modern wellness practices at Spa Rituals",
+  title: "Spa Rituals Kolkata - Best Spa & Massage Center | Body Therapy & Wellness",
+  description: "Visit Spa Rituals in Kolkata for relaxing massage, body therapy, and wellness treatments. Expert therapists, clean rooms, affordable prices. Book your spa appointment today!",
 };
 
 export default function RootLayout({

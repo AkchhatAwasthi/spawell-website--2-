@@ -1,0 +1,336 @@
+/* ========================================
+   MISSION & VISION SECTION STYLES (HOME PAGE)
+   ======================================== */
+
+.mission-vision-section-home {
+    padding: 100px 40px;
+    background: var(--color-off-white);
+    position: relative;
+    overflow: hidden;
+}
+
+.mission-vision-container-home {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.mission-vision-header-home {
+    text-align: center;
+    margin-bottom: 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.mission-vision-header-home.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section-label-mvh {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #7A7F63;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.section-title-mvh {
+    font-size: 3.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #7A7F63;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.section-subtitle-mvh {
+    font-size: 1.2rem;
+    color: var(--color-text);
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Mission & Vision Grid */
+.mission-vision-grid-home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.mv-card-home {
+    background: #fff;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease, opacity 0.8s ease, transform 0.8s ease;
+    border: 1px solid rgba(122, 127, 99, 0.1);
+}
+
+.mv-card-home.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.mv-card-home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: var(--color-primary);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.mv-card-home:hover::before {
+    opacity: 1;
+}
+
+.mv-card-home:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 50px rgba(122, 127, 99, 0.15);
+}
+
+/* Icon */
+.mv-icon-wrapper-home {
+    width: 80px;
+    height: 80px;
+    background: var(--color-off-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    transition: all 0.4s ease;
+}
+
+.mv-card-home:hover .mv-icon-wrapper-home {
+    background: var(--color-primary);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.mv-icon-home {
+    font-size: 2.5rem;
+    transition: transform 0.4s ease;
+}
+
+.mv-card-home:hover .mv-icon-home {
+    transform: scale(1.1);
+}
+
+/* Title & Content */
+.mv-title-home {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: #7A7F63;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.mv-divider-home {
+    width: 60px;
+    height: 3px;
+    background: var(--color-primary);
+    margin-bottom: 25px;
+    border-radius: 2px;
+}
+
+.mv-description-home {
+    font-size: 1.05rem;
+    color: var(--color-text);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* Highlights */
+.mv-highlights-home {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mv-highlight-item-home {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.95rem;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.highlight-icon-home {
+    width: 24px;
+    height: 24px;
+    background: var(--color-primary);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+/* Core Values Section */
+.core-values-section-home {
+    text-align: center;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.core-values-section-home.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.core-values-title-home {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #7A7F63;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.core-values-grid-home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.value-item-home {
+    background: #fff;
+    padding: 35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(122, 127, 99, 0.1);
+}
+
+.value-item-home:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(122, 127, 99, 0.12);
+}
+
+.value-icon-home {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.value-item-home h4 {
+    font-size: 1.3rem;
+    color: #7A7F63;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.value-item-home p {
+    font-size: 0.95rem;
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .mission-vision-section-home {
+        padding: 80px 30px;
+    }
+
+    .section-title-mvh {
+        font-size: 2.8rem;
+    }
+
+    .mission-vision-grid-home {
+        gap: 30px;
+    }
+
+    .mv-card-home {
+        padding: 40px 30px;
+    }
+
+    .core-values-grid-home {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mission-vision-section-home {
+        padding: 60px 20px;
+    }
+
+    .section-title-mvh {
+        font-size: 2.2rem;
+    }
+
+    .section-subtitle-mvh {
+        font-size: 1rem;
+    }
+
+    .mission-vision-grid-home {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-bottom: 60px;
+    }
+
+    .mv-card-home {
+        padding: 35px 25px;
+    }
+
+    .mv-title-home {
+        font-size: 1.6rem;
+    }
+
+    .mv-description-home {
+        font-size: 1rem;
+    }
+
+    .core-values-title-home {
+        font-size: 2rem;
+    }
+
+    .core-values-grid-home {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title-mvh {
+        font-size: 1.8rem;
+    }
+
+    .mv-icon-wrapper-home {
+        width: 60px;
+        height: 60px;
+    }
+
+    .mv-icon-home {
+        font-size: 2rem;
+    }
+
+    .mv-title-home {
+        font-size: 1.4rem;
+    }
+
+    .core-values-title-home {
+        font-size: 1.6rem;
+    }
+
+    .value-icon-home {
+        font-size: 2.5rem;
+    }
+}

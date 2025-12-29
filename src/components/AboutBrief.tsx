@@ -22,11 +22,11 @@ export default function AboutBrief() {
         <section className="about-brief-section-clean">
             <div className="about-brief-container-clean">
                 <div className="fade-in about-brief-content-clean">
-                    <span className="about-brief-label-clean">Welcome</span>
+                    <span className="about-brief-label-clean">Welcome To</span>
                     <h2 className="about-brief-title-clean">Spa Rituals</h2>
                     <p className="about-brief-text-clean">
-                        A haven of tranquility where time slows down and self-care becomes sacred.
-                        We honor the ancient art of wellness through personalized treatments that nurture body, mind, and spirit.
+                        A quiet and clean spa where you can relax and take care of yourself.
+                        We give you massage and body treatments that help you feel calm, fresh, and happy.
                     </p>
                     <div className="about-brief-stats-clean">
                         <div className="stat-item-clean">

@@ -47,31 +47,31 @@ export default function Hero() {
             <div className="hero-content-cinematic">
                 <div className="hero-fade-in hero-badge-cinematic">
                     <span className="badge-icon-cinematic">✨</span>
-                    <span>Premium Wellness Experience</span>
+                    <span>Best Spa in Kolkata</span>
                 </div>
 
                 <div className="hero-fade-in">
                     <h1 className="hero-title-cinematic">
-                        Where Wellness<br />Meets Tranquility
+                        Relax Your Body<br />Feel Fresh & Happy
                     </h1>
                 </div>
 
                 <div className="hero-fade-in hero-description-cinematic">
                     <p>
-                        Discover a sanctuary of calm where ancient healing traditions<br />
-                        blend with modern wellness practices
+                        A peaceful spa where you can relax and feel better.<br />
+                        We offer massage, body treatments, and wellness care.
                     </p>
                 </div>
 
                 <div className="hero-fade-in hero-cta-buttons-cinematic">
                     <Link href="#contact" className="hero-cta-primary-cinematic">
-                        <span>Book Your Ritual</span>
+                        <span>Book Appointment</span>
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </Link>
                     <Link href="#services" className="hero-cta-secondary-cinematic">
-                        <span>Explore Therapies</span>
+                        <span>See Our Services</span>
                     </Link>
                 </div>
             </div>

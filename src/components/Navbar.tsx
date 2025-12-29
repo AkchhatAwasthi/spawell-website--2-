@@ -55,7 +55,8 @@ export default function Navbar() {
                     <li><Link href="/" onClick={closeMenu}>Home</Link></li>
                     <li><Link href="/services" onClick={closeMenu}>Therapies</Link></li>
                     <li><Link href="/about" onClick={closeMenu}>About</Link></li>
-                    <li><Link href="#contact" onClick={closeMenu}>Contact</Link></li>
+                    <li><Link href="/partners" onClick={closeMenu}>Partners</Link></li>
+                    <li><Link href="/contact" onClick={closeMenu}>Contact</Link></li>
                 </ul>
                 <div className="mobile-nav-footer">
                     <Link href="#contact" className="mobile-cta-btn" onClick={closeMenu}>
@@ -79,19 +80,25 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/services" className="nav-link">
-                                <span>Therapies</span>
-                                <div className="nav-link-underline"></div>
-                            </Link>
-                        </li>
-                        <li>
                             <Link href="/about" className="nav-link">
                                 <span>About</span>
                                 <div className="nav-link-underline"></div>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#contact" className="nav-link">
+                            <Link href="/services" className="nav-link">
+                                <span>Therapies</span>
+                                <div className="nav-link-underline"></div>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/partners" className="nav-link">
+                                <span>Partners</span>
+                                <div className="nav-link-underline"></div>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/contact" className="nav-link">
                                 <span>Contact</span>
                                 <div className="nav-link-underline"></div>
                             </Link>
