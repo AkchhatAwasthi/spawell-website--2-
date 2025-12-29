@@ -496,20 +496,34 @@ body {
   z-index: 1100;
   position: fixed;
   top: 1.5rem;
-  right: 2rem;
-  padding: 0.5rem;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: var(--radius-sm);
+  right: 1.5rem;
+  padding: 0.75rem;
+  background: var(--color-white);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-md);
   transition: all var(--transition-base);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-toggle:hover {
+  background: var(--color-off-white);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 .menu-toggle span {
   width: 25px;
   height: 3px;
-  background: var(--color-white);
+  background: var(--color-primary);
   border-radius: var(--radius-full);
   transition: all var(--transition-base);
+}
+
+.menu-toggle.active {
+  background: var(--color-primary);
+}
+
+.menu-toggle.active span {
+  background: var(--color-white);
 }
 
 .menu-toggle.active span:nth-child(1) {
@@ -1006,6 +1020,22 @@ body {
 @media (max-width: 768px) {
   .modern-header {
     padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .modern-nav-links,
+  .modern-nav-btn {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .modern-logo img {
+    height: 40px;
   }
 
   .modern-hero {
@@ -3729,38 +3759,40 @@ img {
 
 /* ===== ABOUT HERO SECTION ===== */
 .about-hero {
-  height: 70vh;
-  min-height: 500px;
-  background: linear-gradient(rgba(122, 127, 99, 0.7), rgba(122, 127, 99, 0.7)),
-    url('/assets/images/about-spa.jpeg') center/cover no-repeat;
+  min-height: 400px;
+  background: linear-gradient(135deg, var(--color-off-white) 0%, var(--color-white) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-top: 60px;
+  margin-top: 80px;
+  padding: 6rem 2rem;
 }
 
 .about-hero-overlay {
   text-align: center;
-  color: #fff;
+  color: var(--color-text);
   z-index: 2;
   padding: 40px 20px;
   animation: fadeInUp 1s ease;
+  max-width: 900px;
 }
 
 .about-hero-title {
-  font-size: 3.5rem;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-family: 'Playfair Display', serif;
   margin-bottom: 20px;
   font-weight: 700;
   letter-spacing: 1px;
+  color: var(--color-primary);
 }
 
 .about-hero-subtitle {
-  font-size: 1.3rem;
-  font-weight: 300;
-  letter-spacing: 2px;
-  opacity: 0.95;
+  font-size: clamp(1.125rem, 2vw, 1.3rem);
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--color-gray);
+  line-height: 1.8;
 }
 
 @keyframes fadeInUp {
@@ -4064,16 +4096,19 @@ img {
   }
 
   .about-hero {
-    height: 60vh;
-    min-height: 400px;
+    min-height: 350px;
+    padding: 4rem 1.5rem;
+    margin-top: 70px;
   }
 
   .about-hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
   }
 
   .about-hero-subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.6;
   }
 
   .about-story {
@@ -4096,7 +4131,11 @@ img {
 
   .values-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 25px;
+  }
+
+  .value-card {
+    padding: 2rem 1.5rem;
   }
 
   .team-grid {
@@ -4114,21 +4153,27 @@ img {
   }
 
   .about-cta p {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 480px) {
+  .about-hero {
+    margin-top: 65px;
+    padding: 3rem 1rem;
+  }
+
   .about-hero-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .about-hero-subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
-  .story-text h2 {
-    font-size: 1.8rem;
+  .story-text h2,
+  .section-heading {
+    font-size: 1.75rem;
   }
 
   .story-text p {
@@ -5018,7 +5063,7 @@ img {
 }
 
 .services-hero-title {
-  font-size: 3.5rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
   font-family: 'Playfair Display', serif;
   color: #7A7F63;
   margin-bottom: 20px;
@@ -5622,6 +5667,7 @@ img {
   .services-hero {
     padding: 100px 20px 60px;
     min-height: 50vh;
+    margin-top: 70px;
   }
 
   .services-hero-title {
@@ -5924,24 +5970,26 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #7A7F63 0%, #6a6f53 100%);
+  background: linear-gradient(135deg, var(--color-off-white) 0%, var(--color-white) 100%);
   padding: 140px 40px 100px;
   text-align: center;
 }
 
 .contact-hero-content h1 {
-  font-size: 3.5rem;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-family: 'Playfair Display', serif;
-  color: #fff;
+  color: var(--color-primary);
   margin-bottom: 20px;
   font-weight: 600;
+  line-height: 1.2;
 }
 
 .contact-hero-content p {
-  font-size: 1.3rem;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(1.125rem, 2vw, 1.3rem);
+  color: var(--color-gray);
   max-width: 700px;
   margin: 0 auto;
+  line-height: 1.7;
 }
 
 .therapies-marquee {
@@ -6090,14 +6138,17 @@ img {
   .contact-hero {
     padding: 100px 20px 60px;
     min-height: 40vh;
+    margin-top: 70px;
   }
 
   .contact-hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
   }
 
   .contact-hero-content p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.6;
   }
 
   .marquee-content span {
@@ -6117,6 +6168,18 @@ img {
   .map-container h3,
   .contact-details h3 {
     font-size: 2rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px;
+    padding: 14px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 16px;
   }
 }
 
