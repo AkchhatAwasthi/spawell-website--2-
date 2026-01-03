@@ -24,7 +24,7 @@ export default function Trust() {
 
                 {/* Right: Image */}
                 <div className="trust-image">
-                    <img src="/assets/images/massage-oval.png" alt="Relaxed Client" />
+                    <img src="/assets/images/massage-woman.jpg" alt="Relaxed Client" />
                 </div>
             </div>
         </section>

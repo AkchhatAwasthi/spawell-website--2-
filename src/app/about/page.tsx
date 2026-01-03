@@ -10,7 +10,7 @@ export default function AboutPage() {
                 <Navbar />
                 <div className="about-page">
                     {/* Hero Section */}
-                    <section className="about-hero">
+                    <section className="about-hero" style={{ backgroundImage: "url('https://calista.com.tr/media/532bmoz2/spa-nedir.jpg?rmode=max&width=500&height=265')" }}>
                         <div className="about-hero-overlay">
                             <h1 className="about-hero-title">About Spa Rituals Kolkata</h1>
                             <p className="about-hero-subtitle">Your Trusted Spa for Relaxation and Wellness</p>

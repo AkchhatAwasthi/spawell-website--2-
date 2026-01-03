@@ -5,32 +5,11 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
 const galleryImages = [
-    { src: "/assets/images/ambiance3.JPG", category: "ambiance", title: "Zen garden view" },
-    { src: "/assets/images/ambiance4.JPG", category: "ambiance", title: "Zen garden view" },
-    { src: "/assets/images/ambiance5.JPG", category: "ambiance", title: "Zen garden view" },
-    { src: "/assets/images/ambiance6.JPG", category: "ambiance", title: "Zen garden view" },
-    { src: "/assets/images/ambiance7.JPG", category: "ambiance", title: "Zen garden view" },
-    { src: "/assets/images/ambiance8.JPG", category: "ambiance", title: "Zen garden view" },
-    { src: "/assets/images/ambiance9.JPG", category: "ambiance", title: "Zen garden view" },
-    { src: "/assets/images/ambiance10.JPG", category: "ambiance", title: "Zen garden view" },
     { src: "/assets/images/gallery4.jpg", category: "ambiance", title: "Aromatherapy setup" },
-    { src: "/assets/images/gallery5.jpg", category: "facial", title: "Facial treatment" },
-    { src: "/assets/images/ambiance1.JPG", category: "ambiance", title: "Zen garden view" },
-    { src: "/assets/images/ambiance2.JPG", category: "ambiance", title: "Zen garden view" },
-    { src: "/assets/images/massage1.JPG", category: "massage", title: "Massage Therapy" },
-    { src: "/assets/images/massage2.JPG", category: "massage", title: "Massage Therapy" },
-    { src: "/assets/images/massage3.JPG", category: "massage", title: "Massage Therapy" },
-    { src: "/assets/images/massage4.JPG", category: "massage", title: "Massage Therapy" },
-    { src: "/assets/images/massage5.JPG", category: "massage", title: "Massage Therapy" },
-    { src: "/assets/images/massage6.JPG", category: "massage", title: "Massage Therapy" },
-    { src: "/assets/images/massage7.JPG", category: "massage", title: "Massage Therapy" },
-    { src: "/assets/images/massage8.JPG", category: "massage", title: "Massage Therapy" },
     { src: "/assets/images/massage10.jpg", category: "massage", title: "Massage Therapy" },
     { src: "/assets/images/massage11.jpg", category: "massage", title: "Massage Therapy" },
     { src: "/assets/images/massage12.jpg", category: "massage", title: "Massage Therapy" },
     { src: "/assets/images/massage13.jpg", category: "massage", title: "Massage Therapy" },
-    { src: "/assets/images/massage9.JPG", category: "massage", title: "Massage Therapy" },
-    { src: "/assets/images/ambiance11.JPG", category: "ambiance", title: "Zen garden view" },
 ];
 
 export default function Gallery() {

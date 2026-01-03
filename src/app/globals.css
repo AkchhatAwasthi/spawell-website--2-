@@ -3759,8 +3759,11 @@ img {
 
 /* ===== ABOUT HERO SECTION ===== */
 .about-hero {
-  min-height: 400px;
-  background: linear-gradient(135deg, var(--color-off-white) 0%, var(--color-white) 100%);
+  min-height: 500px;
+  background-color: var(--color-off-white);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3769,10 +3772,22 @@ img {
   padding: 6rem 2rem;
 }
 
+.about-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
 .about-hero-overlay {
   text-align: center;
-  color: var(--color-text);
+  color: var(--color-white);
   z-index: 2;
+  position: relative;
   padding: 40px 20px;
   animation: fadeInUp 1s ease;
   max-width: 900px;
@@ -3784,14 +3799,14 @@ img {
   margin-bottom: 20px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .about-hero-subtitle {
   font-size: clamp(1.125rem, 2vw, 1.3rem);
   font-weight: 400;
   letter-spacing: 1px;
-  color: var(--color-gray);
+  color: var(--color-white);
   line-height: 1.8;
 }
 
@@ -3858,7 +3873,7 @@ img {
 /* ===== MISSION & VISION SECTION ===== */
 .mission-vision {
   padding: 80px 0;
-  background: linear-gradient(135deg, #f5f7f3 0%, #e8ebe3 100%);
+  background: var(--color-off-white);
 }
 
 .mv-grid {
