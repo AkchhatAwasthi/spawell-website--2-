@@ -22,7 +22,7 @@ export default function AboutPage() {
                         <div className="about-container">
                             <div className="story-content">
                                 <div className="story-image">
-                                    <img src="/assets/images/about-spa.jpeg" alt="Spa Interior" />
+                                    <img src="/assets/images/spa-woman.png" alt="Spa Interior" />
                                 </div>
                                 <div className="story-text">
                                     <h2>Our Story</h2>

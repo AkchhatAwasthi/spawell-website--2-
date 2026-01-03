@@ -25,7 +25,7 @@ export default function About() {
         <section id="about" className="about-section">
             <div className="about-container">
                 <div className="about-image" ref={imgRef}>
-                    <img src="/assets/images/about-spa.jpeg" alt="Spa ambiance" />
+                    <img src="/assets/images/spa-woman.png" alt="Spa ambiance" />
                 </div>
                 <div className="about-text" ref={textRef}>
                     <h2 className="about-heading">About Us</h2>
