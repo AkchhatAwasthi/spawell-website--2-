@@ -229,7 +229,7 @@ Looking forward to your confirmation!`;
                         <h3>Visit Us</h3>
                         <div className="map-wrapper">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.5!2d76.7!3d30.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDQyJzAwLjAiTiA3NsKwNDInMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                                src="https://maps.google.com/maps?q=Spa+Rituals+Salt+Lake+Kolkata&t=&z=15&ie=UTF8&iwloc=&output=embed"
                                 width="100%"
                                 height="400"
                                 style={{ border: 0, borderRadius: '16px' }}
@@ -252,13 +252,17 @@ Looking forward to your confirmation!`;
                             <div className="detail-card">
                                 <div className="detail-icon">📧</div>
                                 <h4>Email</h4>
-                                <a href="mailto:info@spawellwellness.com">info@spawellwellness.com</a>
+                                <a href="mailto:sparitualskol@gmail.com">sparitualskol@gmail.com</a>
                             </div>
 
                             <div className="detail-card">
                                 <div className="detail-icon">📍</div>
                                 <h4>Address</h4>
-                                <p>Spawell Wellness Center<br />Chandigarh, India</p>
+                                <p>
+                                    1st floor, Rajani villa, opposite Starbucks coffee Saltlake Citycentre,<br />
+                                    EC 18, near metro gate A, Bidhan Nagar,<br />
+                                    EC Block, Sector 1, Bidhannagar, Kolkata, West Bengal 700064
+                                </p>
                             </div>
 
                             <div className="detail-card">
