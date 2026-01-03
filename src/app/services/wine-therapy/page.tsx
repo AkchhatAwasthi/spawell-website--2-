@@ -56,7 +56,7 @@ export default function WineTherapyPage() {
                         <div className="therapy-overview-meta">
                             <div className="therapy-meta-card">
                                 <h3>Duration</h3>
-                                <p>75-90 minutes</p>
+                                <p>75 minutes</p>
                             </div>
                             <div className="therapy-meta-card">
                                 <h3>Ideal For</h3>

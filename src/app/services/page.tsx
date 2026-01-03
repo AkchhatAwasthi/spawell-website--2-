@@ -12,7 +12,7 @@ const therapies = [
         shortDesc: 'Deep muscle relaxation with heated volcanic stones',
         fullDesc: 'Experience the ancient healing power of smooth, heated volcanic stones. This therapeutic massage melts away tension, improves circulation, and promotes deep relaxation. The warmth penetrates deep into muscles, releasing chronic stress and restoring balance to your body and mind.',
         idealFor: 'Muscle Tension • Stress Relief • Circulation',
-        duration: '60-90 minutes',
+        duration: '90 minutes',
         image: '/assets/images/hot-stone-therapy.jpg'
     },
     {
@@ -30,7 +30,7 @@ const therapies = [
         shortDesc: 'Antioxidant-rich treatment for radiant skin',
         fullDesc: 'Indulge in the luxurious benefits of grape extracts and wine essences. Rich in antioxidants and polyphenols, this unique therapy nourishes your skin, promotes cell renewal, and leaves you with a healthy, radiant glow. A perfect blend of indulgence and wellness.',
         idealFor: 'Skin Rejuvenation • Anti-Aging • Relaxation',
-        duration: '75-90 minutes',
+        duration: '75 minutes',
         image: '/assets/images/wine-therapy.jpg'
     },
     {
@@ -39,7 +39,7 @@ const therapies = [
         shortDesc: 'Synchronized harmony by two expert therapists',
         fullDesc: 'Experience the extraordinary sensation of two therapists working in perfect harmony. This choreographed massage creates a deeply immersive experience, doubling the relaxation benefits. The synchronized movements create a meditative state that transcends ordinary massage.',
         idealFor: 'Deep Relaxation • Unique Experience • Stress Relief',
-        duration: '60-75 minutes',
+        duration: '60-90 minutes',
         image: '/assets/images/four-hands-therapy.jpg'
     },
     {
@@ -48,17 +48,17 @@ const therapies = [
         shortDesc: 'Athletic recovery and performance enhancement',
         fullDesc: 'Designed for active individuals and athletes, this therapeutic massage targets muscle recovery, flexibility, and injury prevention. Using specialized techniques, we address muscle fatigue, improve range of motion, and accelerate healing for peak performance.',
         idealFor: 'Athletes • Muscle Recovery • Injury Prevention',
-        duration: '60-90 minutes',
+        duration: '90 minutes',
         image: '/assets/images/sports-therapy.jpg'
     },
     {
         id: 'crystal-cool-therapy',
         name: 'Crystal Cool Therapy',
-        shortDesc: 'Healing energy with cooling crystal elements',
-        fullDesc: 'Harness the natural healing properties of crystals combined with cooling therapy techniques. This unique treatment balances your energy centers, reduces inflammation, and promotes holistic wellness. The cooling sensation soothes both body and mind.',
+        shortDesc: 'Healing energy with cooling elements',
+        fullDesc: 'Experience the healing benefits of targeted cooling therapy using specially selected creams and ice techniques. This treatment helps calm the body, reduce inflammation, and restore natural balance. The cooling sensation deeply relaxes the muscles, eases stress, and leaves both body and mind feeling refreshed and revitalized.',
         idealFor: 'Energy Balance • Inflammation • Holistic Healing',
-        duration: '75-90 minutes',
-        image: '/assets/images/crystal-therapy.jpg'
+        duration: '60 minutes',
+        image: '/assets/images/crystal-therapy.png'
     }
 ];
 

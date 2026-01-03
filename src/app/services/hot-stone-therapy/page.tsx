@@ -43,29 +43,29 @@ export default function HotStoneTherapyPage() {
                             <h2>Experience Deep Muscle Relaxation</h2>
                             <div className="sp-divider"></div>
                             <p className="therapy-lead">
-                                Immerse yourself in the ancient healing power of smooth, heated volcanic stones. 
-                                This therapeutic massage technique has been used for centuries to promote deep 
+                                Immerse yourself in the ancient healing power of smooth, heated volcanic stones.
+                                This therapeutic massage technique has been used for centuries to promote deep
                                 relaxation, improve circulation, and restore balance to both body and mind.
                             </p>
                             <p>
-                                The warmth from the stones penetrates deep into your muscles, releasing chronic 
-                                tension and stress. As the heat relaxes your muscles, your therapist uses specialized 
-                                techniques to work out knots and improve blood flow, creating a profoundly therapeutic 
+                                The warmth from the stones penetrates deep into your muscles, releasing chronic
+                                tension and stress. As the heat relaxes your muscles, your therapist uses specialized
+                                techniques to work out knots and improve blood flow, creating a profoundly therapeutic
                                 experience that goes beyond traditional massage.
                             </p>
                         </div>
                         <div className="therapy-overview-meta">
                             <div className="therapy-meta-card">
                                 <h3>Duration</h3>
-                                <p>60-90 minutes</p>
+                                <p>90 minutes</p>
                             </div>
                             <div className="therapy-meta-card">
                                 <h3>Ideal For</h3>
-                                <p>Muscle Tension<br/>Stress Relief<br/>Poor Circulation<br/>Chronic Pain</p>
+                                <p>Muscle Tension<br />Stress Relief<br />Poor Circulation<br />Chronic Pain</p>
                             </div>
                             <div className="therapy-meta-card">
                                 <h3>Temperature</h3>
-                                <p>130-145°F<br/>(Carefully Controlled)</p>
+                                <p>130-145°F<br />(Carefully Controlled)</p>
                             </div>
                         </div>
                     </div>
