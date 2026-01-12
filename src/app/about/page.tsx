@@ -1,7 +1,44 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AboutClientWrapper from '@/components/AboutClientWrapper';
+
+export const metadata: Metadata = {
+    title: "About Us - Our Story & Mission",
+    description: "Learn about Spa Rituals Kolkata - your trusted spa for relaxation and wellness. Discover our story, mission, values, and commitment to quality massage and wellness treatments.",
+    keywords: [
+        "about spa rituals",
+        "spa kolkata story",
+        "wellness center about",
+        "spa mission vision",
+        "best spa kolkata",
+        "spa rituals history",
+        "massage center kolkata"
+    ],
+    openGraph: {
+        title: "About Spa Rituals Kolkata - Our Story & Mission",
+        description: "Learn about Spa Rituals Kolkata - your trusted spa for relaxation and wellness. Discover our story, mission, and values.",
+        url: "https://sparituals.co.in/about",
+        images: [
+            {
+                url: "/assets/images/spa-woman.png",
+                width: 1200,
+                height: 630,
+                alt: "About Spa Rituals Kolkata",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "About Spa Rituals Kolkata - Our Story & Mission",
+        description: "Learn about Spa Rituals Kolkata - your trusted spa for relaxation and wellness.",
+        images: ["/assets/images/spa-woman.png"],
+    },
+    alternates: {
+        canonical: "https://sparituals.co.in/about",
+    },
+};
 
 export default function AboutPage() {
     return (

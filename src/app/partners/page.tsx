@@ -8,8 +8,39 @@ import BrandTrust from '@/components/BrandTrust';
 import PartnersCTA from '@/components/PartnersCTA';
 
 export const metadata = {
-    title: 'Our Partners - Spa Rituals Kolkata | Wellness Partnerships',
+    title: 'Our Partners - Premium Wellness Partnerships',
     description: 'Spa Rituals partners with trusted wellness brands to bring you the best spa and massage services in Kolkata. Quality products, expert care, affordable prices.',
+    keywords: [
+        "spa rituals partners",
+        "wellness partnerships kolkata",
+        "spa brands kolkata",
+        "premium spa products",
+        "corporate wellness partners",
+        "spa collaboration",
+        "wellness brands"
+    ],
+    openGraph: {
+        title: 'Our Partners - Spa Rituals Kolkata',
+        description: 'We partner with trusted wellness brands to bring you the best spa and massage services.',
+        url: 'https://sparituals.co.in/partners',
+        images: [
+            {
+                url: '/assets/images/spa-hero-1.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'Spa Rituals Kolkata Partners',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Our Partners - Spa Rituals Kolkata',
+        description: 'Trusted wellness partnerships for premium spa services.',
+        images: ['/assets/images/spa-hero-1.jpg'],
+    },
+    alternates: {
+        canonical: 'https://sparituals.co.in/partners',
+    },
 };
 
 export default function PartnersPage() {
