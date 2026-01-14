@@ -1,22 +1,22 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Wine Therapy - Luxury Skin Rejuvenation',
-    description: 'Indulge in luxurious wine therapy at Spa Rituals Kolkata. Grape extracts rich in antioxidants, resveratrol, and polyphenols for radiant, youthful skin. Premium anti-aging treatment with visible results.',
+    title: 'Wine Therapy - Skin Rejuvenation & Antioxidant Body Treatment',
+    description: 'Wine Therapy at Spa Rituals Kolkata uses antioxidant-rich grape extracts to nourish the skin, improve elasticity, slow aging and enhance complexion with luxurious body treatment techniques.',
     keywords: [
         "wine therapy kolkata",
-        "grape extract treatment",
-        "resveratrol spa",
-        "antioxidant therapy kolkata",
-        "anti-aging spa treatment",
-        "skin rejuvenation kolkata",
-        "polyphenols treatment",
+        "wine spa treatment kolkata",
+        "anti aging body treatment",
+        "skin rejuvenation spa kolkata",
+        "antioxidant body therapy",
         "luxury spa kolkata",
-        "wine facial treatment"
+        "skin polishing treatment kolkata",
+        "grape extract spa therapy",
+        "spa rituals wine therapy"
     ],
     openGraph: {
-        title: 'Wine Therapy - Luxury Skin Rejuvenation | Spa Rituals Kolkata',
-        description: 'Luxurious benefits of wine therapy for radiant, youthful skin with powerful antioxidants.',
+        title: 'Wine Therapy - Antioxidant Body Treatment | Spa Rituals Kolkata',
+        description: 'Indulge in antioxidant-rich wine therapy to enhance skin tone, elasticity and glow.',
         type: 'website',
         url: 'https://sparituals.co.in/services/wine-therapy',
         images: [
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Wine Therapy - Luxury Skin Rejuvenation | Spa Rituals Kolkata',
-        description: 'Antioxidant-rich wine therapy for radiant, youthful skin at Spa Rituals.',
+        title: 'Wine Therapy | Spa Rituals Kolkata',
+        description: 'Antioxidant body treatment for skin rejuvenation and anti-aging.',
         images: ['/assets/images/wine-therapy.jpg'],
     },
     alternates: {
@@ -39,11 +39,6 @@ export const metadata: Metadata = {
     },
 };
 
-export default function WineTherapyLayout({
-    children,
-}: {
-    children: React.ReactNode;
-}) {
+export default function WineTherapyLayout({ children }: { children: React.ReactNode; }) {
     return children;
 }
-

@@ -2,21 +2,21 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: 'Sports Therapy - Athletic Recovery & Performance',
-    description: 'Specialized sports massage at Spa Rituals Kolkata for athletes and fitness enthusiasts. Enhance performance, accelerate recovery, prevent injuries with deep tissue, trigger point, and myofascial release techniques.',
+    description: 'Sports Therapy at Spa Rituals Kolkata focuses on muscle recovery, performance optimization, injury prevention and deep tissue release for athletes, fitness enthusiasts and active individuals.',
     keywords: [
+        "sports therapy kolkata",
         "sports massage kolkata",
         "athletic recovery kolkata",
-        "sports therapy",
+        "muscle recovery massage",
+        "injury prevention massage kolkata",
         "deep tissue massage kolkata",
-        "injury prevention massage",
-        "muscle recovery spa",
-        "performance enhancement",
-        "trigger point therapy",
+        "performance enhancement therapy",
+        "trigger point therapy kolkata",
         "myofascial release kolkata"
     ],
     openGraph: {
         title: 'Sports Therapy - Athletic Recovery | Spa Rituals Kolkata',
-        description: 'Athletic recovery and performance enhancement through specialized massage techniques.',
+        description: 'Specialized sports massage for performance enhancement, recovery and mobility.',
         type: 'website',
         url: 'https://sparituals.co.in/services/sports-therapy',
         images: [
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Sports Therapy - Athletic Recovery | Spa Rituals Kolkata',
-        description: 'Specialized sports massage for athletes at Spa Rituals Kolkata.',
+        title: 'Sports Therapy | Spa Rituals Kolkata',
+        description: 'Therapy for athletes and fitness enthusiasts to improve mobility and recovery.',
         images: ['/assets/images/sports-therapy.jpg'],
     },
     alternates: {
@@ -39,11 +39,6 @@ export const metadata: Metadata = {
     },
 };
 
-export default function SportsTherapyLayout({
-    children,
-}: {
-    children: React.ReactNode;
-}) {
+export default function SportsTherapyLayout({ children }: { children: React.ReactNode; }) {
     return children;
 }
-

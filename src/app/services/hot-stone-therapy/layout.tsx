@@ -1,22 +1,22 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Hot Stone Therapy - Deep Muscle Relaxation',
-    description: 'Experience ancient healing with heated volcanic stones at Spa Rituals Kolkata. Our hot stone therapy melts away tension, improves circulation, and promotes deep relaxation. Book your 90-minute session today!',
+    title: 'Hot Stone Therapy - Deep Relaxation & Muscle Relief',
+    description: 'Hot Stone Therapy at Spa Rituals Kolkata uses heated stones to melt muscle tension, improve blood flow, relieve stress and promote deep relaxation for mind and body.',
     keywords: [
         "hot stone therapy kolkata",
-        "hot stone massage",
-        "volcanic stone massage",
-        "deep muscle relaxation",
-        "heat therapy spa",
-        "stress relief massage kolkata",
-        "chronic pain massage",
-        "muscle tension therapy",
-        "circulation improvement massage"
+        "hot stone massage kolkata",
+        "deep relaxation massage",
+        "muscle tension relief",
+        "therapeutic massage kolkata",
+        "warm stone therapy",
+        "pain relief massage kolkata",
+        "stress relief spa kolkata",
+        "full body massage kolkata"
     ],
     openGraph: {
-        title: 'Hot Stone Therapy - Deep Muscle Relaxation | Spa Rituals Kolkata',
-        description: 'Ancient healing power of smooth, heated volcanic stones for deep muscle relaxation and stress relief.',
+        title: 'Hot Stone Therapy - Deep Relaxation | Spa Rituals Kolkata',
+        description: 'Experience deep muscle relaxation and stress relief with hot stone therapy.',
         type: 'website',
         url: 'https://sparituals.co.in/services/hot-stone-therapy',
         images: [
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Hot Stone Therapy - Deep Muscle Relaxation | Spa Rituals Kolkata',
-        description: 'Experience the ancient healing power of heated volcanic stones at Spa Rituals.',
+        title: 'Hot Stone Therapy | Spa Rituals Kolkata',
+        description: 'Heated stone massage for deep relaxation and muscle relief.',
         images: ['/assets/images/hot-stone-therapy.jpg'],
     },
     alternates: {
@@ -39,11 +39,6 @@ export const metadata: Metadata = {
     },
 };
 
-export default function HotStoneTherapyLayout({
-    children,
-}: {
-    children: React.ReactNode;
-}) {
+export default function HotStoneTherapyLayout({ children }: { children: React.ReactNode; }) {
     return children;
 }
-

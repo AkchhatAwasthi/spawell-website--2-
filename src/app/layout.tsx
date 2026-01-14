@@ -13,7 +13,7 @@ const cormorant = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "600"
 export const metadata: Metadata = {
   metadataBase: new URL('https://sparituals.co.in'),
   title: {
-    default: "Spa Rituals Kolkata - Best Spa & Massage Center | Body Therapy & Wellness",
+    default: "Spa Rituals Kolkata - Best Spa in Kolkata|Best Massage in Kolkata",
     template: "%s | Spa Rituals Kolkata"
   },
   description: "Visit Spa Rituals in Kolkata for relaxing massage, body therapy, and wellness treatments. Expert therapists, clean rooms, affordable prices. Book your spa appointment today!",
