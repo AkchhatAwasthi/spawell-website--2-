@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://sparituals.co.in';
+    const baseUrl = 'https://sparituals.in';
     const currentDate = new Date().toISOString();
 
     // Main pages

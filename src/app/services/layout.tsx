@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Spa Services - Signature Therapies at Spa Rituals Kolkata",
         description: "Explore our signature spa therapies. Hot Stone, Couple Massage, Wine Therapy, Sports Massage, Four Hands & Crystal Cool Therapy.",
-        url: "https://sparituals.co.in/services",
+        url: "https://sparituals.in/services",
         images: [
             {
                 url: "/assets/images/spa-hero-1.jpg",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         images: ["/assets/images/spa-hero-1.jpg"],
     },
     alternates: {
-        canonical: "https://sparituals.co.in/services",
+        canonical: "https://sparituals.in/services",
     },
 };
 

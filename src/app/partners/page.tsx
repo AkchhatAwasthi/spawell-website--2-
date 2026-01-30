@@ -22,7 +22,7 @@ export const metadata = {
     openGraph: {
         title: 'Our Partners - Spa Rituals Kolkata',
         description: 'We partner with trusted wellness brands to bring you the best spa and massage services.',
-        url: 'https://sparituals.co.in/partners',
+        url: 'https://sparituals.in/partners',
         images: [
             {
                 url: '/assets/images/spa-hero-1.jpg',
@@ -39,7 +39,7 @@ export const metadata = {
         images: ['/assets/images/spa-hero-1.jpg'],
     },
     alternates: {
-        canonical: 'https://sparituals.co.in/partners',
+        canonical: 'https://sparituals.in/partners',
     },
 };
 

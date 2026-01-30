@@ -11,7 +11,7 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-montserrat
 const cormorant = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "600"], variable: '--font-cormorant' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sparituals.co.in'),
+  metadataBase: new URL('https://sparituals.in'),
   title: {
     default: "Spa Rituals Kolkata - Best Spa in Kolkata|Best Massage in Kolkata",
     template: "%s | Spa Rituals Kolkata"
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://sparituals.co.in",
+    url: "https://sparituals.in",
     siteName: "Spa Rituals Kolkata",
     title: "Spa Rituals Kolkata - Best Spa & Massage Center",
     description: "Visit Spa Rituals in Kolkata for relaxing massage, body therapy, and wellness treatments. Expert therapists, clean rooms, affordable prices.",
@@ -78,10 +78,10 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "jPC2UP2ORtOI3BZPEdOGk4kisFkO755PHtbqpx-12JY",
+    google: "AOQKxOrACoCs1RV_i-pKxLG1Com44cNar88_HE9Kws4",
   },
   alternates: {
-    canonical: "https://sparituals.co.in",
+    canonical: "https://sparituals.in",
   },
   category: "Health & Wellness",
 };

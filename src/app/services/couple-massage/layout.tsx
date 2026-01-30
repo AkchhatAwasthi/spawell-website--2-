@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         title: 'Couple Massage - Shared Relaxation | Spa Rituals Kolkata',
         description: 'Relax and rejuvenate together with our premium couple spa experience.',
         type: 'website',
-        url: 'https://sparituals.co.in/services/couple-massage',
+        url: 'https://sparituals.in/services/couple-massage',
         images: [
             {
                 url: '/assets/images/couple-massage.jpg',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         images: ['/assets/images/couple-massage.jpg'],
     },
     alternates: {
-        canonical: 'https://sparituals.co.in/services/couple-massage',
+        canonical: 'https://sparituals.in/services/couple-massage',
     },
 };
 

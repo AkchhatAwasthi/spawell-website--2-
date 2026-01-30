@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
                 disallow: ['/api/', '/_next/', '/admin/'],
             },
         ],
-        sitemap: 'https://sparituals.co.in/sitemap.xml',
+        sitemap: 'https://sparituals.in/sitemap.xml',
     };
 }

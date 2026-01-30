@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         title: 'Crystal Cool Therapy - Cooling Facial Massage | Spa Rituals Kolkata',
         description: 'Experience cooling facial rejuvenation with crystal therapy for toned, refreshed and glowing skin.',
         type: 'website',
-        url: 'https://sparituals.co.in/services/crystal-cool-therapy',
+        url: 'https://sparituals.in/services/crystal-cool-therapy',
         images: [
             {
                 url: '/assets/images/crystal-cool-therapy.jpg',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         images: ['/assets/images/crystal-cool-therapy.jpg'],
     },
     alternates: {
-        canonical: 'https://sparituals.co.in/services/crystal-cool-therapy',
+        canonical: 'https://sparituals.in/services/crystal-cool-therapy',
     },
 };
 

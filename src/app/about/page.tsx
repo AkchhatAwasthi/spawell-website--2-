@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "About Spa Rituals Kolkata - Our Story & Mission",
         description: "Learn about Spa Rituals Kolkata - your trusted spa for relaxation and wellness. Discover our story, mission, and values.",
-        url: "https://sparituals.co.in/about",
+        url: "https://sparituals.in/about",
         images: [
             {
                 url: "/assets/images/spa-woman.png",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         images: ["/assets/images/spa-woman.png"],
     },
     alternates: {
-        canonical: "https://sparituals.co.in/about",
+        canonical: "https://sparituals.in/about",
     },
 };
 

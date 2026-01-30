@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         title: 'Wine Therapy - Antioxidant Body Treatment | Spa Rituals Kolkata',
         description: 'Indulge in antioxidant-rich wine therapy to enhance skin tone, elasticity and glow.',
         type: 'website',
-        url: 'https://sparituals.co.in/services/wine-therapy',
+        url: 'https://sparituals.in/services/wine-therapy',
         images: [
             {
                 url: '/assets/images/wine-therapy.jpg',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         images: ['/assets/images/wine-therapy.jpg'],
     },
     alternates: {
-        canonical: 'https://sparituals.co.in/services/wine-therapy',
+        canonical: 'https://sparituals.in/services/wine-therapy',
     },
 };
 

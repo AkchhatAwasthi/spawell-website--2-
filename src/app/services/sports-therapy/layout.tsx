@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         title: 'Sports Therapy - Athletic Recovery | Spa Rituals Kolkata',
         description: 'Specialized sports massage for performance enhancement, recovery and mobility.',
         type: 'website',
-        url: 'https://sparituals.co.in/services/sports-therapy',
+        url: 'https://sparituals.in/services/sports-therapy',
         images: [
             {
                 url: '/assets/images/sports-therapy.jpg',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         images: ['/assets/images/sports-therapy.jpg'],
     },
     alternates: {
-        canonical: 'https://sparituals.co.in/services/sports-therapy',
+        canonical: 'https://sparituals.in/services/sports-therapy',
     },
 };
 

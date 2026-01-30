@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Contact Spa Rituals Kolkata - Book Your Appointment",
         description: "Contact Spa Rituals Kolkata to book your spa appointment. Call us or book easily through WhatsApp. Open Mon-Sun 10AM-9PM.",
-        url: "https://sparituals.co.in/contact",
+        url: "https://sparituals.in/contact",
         images: [
             {
                 url: "/assets/images/spa-hero-1.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         images: ["/assets/images/spa-hero-1.jpg"],
     },
     alternates: {
-        canonical: "https://sparituals.co.in/contact",
+        canonical: "https://sparituals.in/contact",
     },
 };
 

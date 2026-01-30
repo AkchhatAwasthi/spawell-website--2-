@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         title: 'Four Hands Therapy - Synchronized Relaxation | Spa Rituals Kolkata',
         description: 'Experience synchronized massage by two therapists for deeper physical and mental relaxation.',
         type: 'website',
-        url: 'https://sparituals.co.in/services/four-hands-therapy',
+        url: 'https://sparituals.in/services/four-hands-therapy',
         images: [
             {
                 url: '/assets/images/four-hands-therapy.jpg',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         images: ['/assets/images/four-hands-therapy.jpg'],
     },
     alternates: {
-        canonical: 'https://sparituals.co.in/services/four-hands-therapy',
+        canonical: 'https://sparituals.in/services/four-hands-therapy',
     },
 };
 

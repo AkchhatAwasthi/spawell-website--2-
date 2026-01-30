@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         title: 'Hot Stone Therapy - Deep Relaxation | Spa Rituals Kolkata',
         description: 'Experience deep muscle relaxation and stress relief with hot stone therapy.',
         type: 'website',
-        url: 'https://sparituals.co.in/services/hot-stone-therapy',
+        url: 'https://sparituals.in/services/hot-stone-therapy',
         images: [
             {
                 url: '/assets/images/hot-stone-therapy.jpg',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         images: ['/assets/images/hot-stone-therapy.jpg'],
     },
     alternates: {
-        canonical: 'https://sparituals.co.in/services/hot-stone-therapy',
+        canonical: 'https://sparituals.in/services/hot-stone-therapy',
     },
 };
 
